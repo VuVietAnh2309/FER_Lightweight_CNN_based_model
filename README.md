@@ -265,10 +265,13 @@ If you use this code in your research, please cite:
 
 ## Acknowledgments
 
-- RAF-DB dataset creators
+- RAF-DB, FER plus, FER 2013 dataset creators
 - TensorFlow and Keras teams
 - MobileNet architecture authors
 
 ## Contact
 
-For questions or issues, please open an issue in the repository or contact [your-email@example.com].
+For questions or issues, please open an issue in the repository or contact:
+
+**Email**: vanhbeti@gmail.com
+**Institution**: Hanoi University of Science and Technology (HUST)
