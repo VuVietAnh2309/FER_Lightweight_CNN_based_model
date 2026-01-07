@@ -194,34 +194,6 @@ python predict.py --image /path/to/image.jpg \
 
 All hyperparameters are centralized in [config.py](config.py):
 
-## Results
-
-The model achieves the following performance on the RAF-DB dataset:
-
-- **Test Accuracy**: ~94% (after fine-tuning)
-- **Training Time**: ~2-3 hours (depends on hardware)
-
-Results are saved in the `results/` directory:
-- Training history plots
-- Confusion matrices
-- Classification reports
-- Sample predictions
-
-## Model Checkpoints
-
-Models are saved in the `checkpoints/` directory:
-
-- `model_initial.h5`: Model after initial training
-- `model_finetune.h5`: Model after fine-tuning
-
-## Logs
-
-Training logs are saved in `logs/fit/` for TensorBoard visualization:
-
-```bash
-tensorboard --logdir logs/fit
-```
-
 ## Testing Individual Modules
 
 Each module can be tested independently:
