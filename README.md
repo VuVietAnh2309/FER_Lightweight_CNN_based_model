@@ -7,7 +7,7 @@ A lightweight deep learning model for facial expression recognition using Mobile
 The PATTLite model consists of:
 
 - **Data Augmentation Layer**: Random horizontal flip and contrast adjustment
-- **Backbone**: MobileNet (pretrained on ImageNet) for feature extraction
+- **Backbone**: MobileNetV2 (pretrained on ImageNet) for feature extraction
 - **Patch Extraction Module**: Separable convolutions for efficient feature processing
 - **Self-Attention Mechanism**: For capturing important spatial relationships
 - **Classification Head**: Dense layers with batch normalization
@@ -237,19 +237,6 @@ python utils/callbacks.py
 - Increase batch size
 - Use mixed precision training
 
-## Requirements
-
-- TensorFlow 2.12.0
-- OpenCV 4.8.0
-- NumPy 1.23.5
-- scikit-learn 1.3.0
-- Matplotlib 3.7.2
-- seaborn 0.12.2
-
-## License
-
-This project is for research and educational purposes.
-
 ## Citation
 
 If you use this code in your research, please cite:
@@ -263,15 +250,16 @@ If you use this code in your research, please cite:
 }
 ```
 
-## Acknowledgments
+## About project
 
-- RAF-DB, FER plus, FER 2013 dataset creators
-- TensorFlow and Keras teams
-- MobileNet architecture authors
+- RAF-DB, FER+, FER-2013 datasets
+- TensorFlow/Keras, OpenCV, scikit-learn framework
+- MobileNet and Attention mechanism
 
 ## Contact
 
 For questions or issues, please open an issue in the repository or contact:
 
-**Email**: vanhbeti@gmail.com
+**Email**: mrvietanh2@gmail.com
+
 **Institution**: Hanoi University of Science and Technology (HUST)
