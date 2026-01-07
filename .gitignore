@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Model files
+*.h5
+*.keras
+*.pb
+*.ckpt
+*.hdf5
+checkpoints/
+saved_models/
+
+# Logs
+logs/
+*.log
+tensorboard_logs/
+
+# Dataset
+data/
+dataset/
+datasets/
+DATASET/
+*.zip
+*.tar.gz
+
+# Results
+results/
+outputs/
+predictions/
+*.npz
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# System
+Thumbs.db
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# folder ignore
+data/
+notebooks/pattlite-rafdb.ipynb
